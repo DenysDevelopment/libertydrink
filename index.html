@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="stylesheet" href="/css//nouislider.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header class="header fixed">
+			<div class="container">
+				<div class="header__body">
+					<a href="/" class="logo">
+						<img src="img/logo.svg" alt="LibertyDrink" />
+					</a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li>
+									<a data-goto-section="#start" href="#" class="menu__link">Koszt</a>
+								</li>
+								<li>
+									<a data-goto-section="#callback" href="#callback" class="menu__link"
+										>kontakty</a
+									>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<a href="" class="header__tel">+48 690 593 905</a>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<section class="intro section">
+				<div class="container">
+					<div class="intro__body">
+						<div class="intro__offer">
+							<p class="intro__label">Otwórz swój biznes</p>
+							<h1 class="intro__title">
+								Otwórz własną kawiarnię już za 29&nbsp;900 PLN i ciesz się zyskiem w
+								przedziale od 400 do 1400 PLN miesięcznie
+							</h1>
+							<a data-goto-section="#callback" href="#callback" class="btn"
+								>Zostaw prośbę</a
+							>
+						</div>
+						<div class="intro__img">
+							<img src="img/intro-img.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="benefits section">
+				<div class="container">
+					<h2 class="benefits__title">Franczyza od Liberty Drink to:</h2>
+					<div class="benefits__body">
+						<div class="benefits__block block-benefits">
+							<div class="block-benefits__img"></div>
+							<h3 class="block-benefits__title">0 - pracownicy</h3>
+							<div class="block-benefits__desc">Nie ma pracowników - nie ma problemu</div>
+						</div>
+						<div class="benefits__block block-benefits">
+							<div class="block-benefits__img"></div>
+							<h3 class="block-benefits__title">Gwarancje sukcesu</h3>
+							<div class="block-benefits__desc">
+								uzyskać gwarancje zwrotu pieniędzy zatwierdzone w umowie
+							</div>
+						</div>
+						<div class="benefits__block block-benefits">
+							<div class="block-benefits__img"></div>
+							<h3 class="block-benefits__title">+2 tys. miejsc</h3>
+							<div class="block-benefits__desc">
+								ponad 2 000 miejsc do umieszczenia kawiarni. Powierzchnia kawiarni to 1 m²
+								na tani
+							</div>
+						</div>
+						<div class="benefits__block block-benefits">
+							<div class="block-benefits__img"></div>
+							<h3 class="block-benefits__title">Szybki zwrot</h3>
+							<div class="block-benefits__desc">
+								Inwestycja 29 900 PLN, zysk 2 000 PLN - 6 000 PLN/miesiąc, zwrot z
+								inwestycji w 8-12 miesiąc.
+							</div>
+						</div>
+						<div class="benefits__block block-benefits">
+							<div class="block-benefits__img"></div>
+							<h3 class="block-benefits__title">Minimalny czas spędzony</h3>
+							<div class="block-benefits__desc">10-30 min dziennie dla biznesu</div>
+						</div>
+						<div class="benefits__block block-benefits">
+							<div class="block-benefits__img"></div>
+							<h3 class="block-benefits__title">Wysoka jakość</h3>
+							<div class="block-benefits__desc">
+								80% arabica, 20% rabusta, prawdziwe mleko, któremu ludzie ufają
+							</div>
+						</div>
+						<div class="benefits__block block-benefits">
+							<div class="block-benefits__img"></div>
+							<h3 class="block-benefits__title">Prędkość</h3>
+							<div class="block-benefits__desc">
+								średnio 40 sekund na przygotowanie 1 napoju
+							</div>
+						</div>
+						<div class="benefits__block block-benefits">
+							<div class="block-benefits__img"></div>
+							<h3 class="block-benefits__title">Styl i innowacja</h3>
+							<div class="block-benefits__desc">
+								innowacyjny i stylowy design, który przyciąga
+							</div>
+						</div>
+						<div class="benefits__block block-benefits">
+							<div class="block-benefits__img"></div>
+							<h3 class="block-benefits__title">Wsparcie 24/7</h3>
+							<div class="block-benefits__desc">
+								Własny manager, prawdziwe narzędzia, które działają, infolinia,
+								zarządzanie w telefonie
+							</div>
+						</div>
+						<div class="benefits__block block-benefits">
+							<div class="block-benefits__img"></div>
+							<h3 class="block-benefits__title">Prostota</h3>
+							<div class="block-benefits__desc">
+								wygodny dla użytkowników - opłacalny dla właścicieli
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="steps">
+				<div class="container">Wejdź z nami do własnego biznesu</div>
+			</section>
+			<section class="calculate section">
+				<div class="container">
+					<div class="calculate__body">
+						<div class="calculate__text">
+							<h2 class="step-title"><span>Krok 1 </span><span>Oblicz zysk</span></h2>
+							<div class="calculate__model bussiness-model">
+								<div class="bussiness-model__text">
+									<h3 class="bussiness-model__title">
+										Sprzedawaj 6 drinków dziennie - i jesteś na plusie
+									</h3>
+									<p class="bussiness-model__label">Prosty model biznesowy</p>
+								</div>
+								<div class="bussiness-model__numbers">
+									<div class="bussiness-model__grid">
+										<div class="bussiness-model__row">
+											<div class="bussiness-model__column">Produkty</div>
+											<div class="bussiness-model__column">35,7%</div>
+										</div>
+										<div class="bussiness-model__row">
+											<div class="bussiness-model__column">Wynajem</div>
+											<div class="bussiness-model__column">12,5%</div>
+										</div>
+										<div class="bussiness-model__row">
+											<div class="bussiness-model__column">Personel</div>
+											<div class="bussiness-model__column">0.0%</div>
+										</div>
+
+										<div class="bussiness-model__row">
+											<div class="bussiness-model__column">Inny</div>
+											<div class="bussiness-model__column">1,9%</div>
+										</div>
+										<div class="bussiness-model__row">
+											<div class="bussiness-model__column">Zysk netto</div>
+											<div class="bussiness-model__column">50,1%</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="calculate__numbers numbers-calculate">
+								<div class="numbers-calculate__main">
+									30 drinków <br />
+									na dzień
+								</div>
+								<div class="numbers-calculate__grid">
+									<div class="numbers-calculate__row">
+										<div class="numbers-calculate__column">3 500</div>
+										<div class="numbers-calculate__column">zł/miesiąc (zysk)</div>
+									</div>
+									<div class="numbers-calculate__row">
+										<div class="numbers-calculate__column">7 200</div>
+										<div class="numbers-calculate__column">zł/miesiąc (obrót)</div>
+									</div>
+									<div class="numbers-calculate__row">
+										<div class="numbers-calculate__column">42 000</div>
+										<div class="numbers-calculate__column">zł/rik (zysk)</div>
+									</div>
+									<div class="numbers-calculate__row">
+										<div class="numbers-calculate__column">86 000</div>
+										<div class="numbers-calculate__column">zł/rik (obrót)</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="calculate__img calculate-grid-bottle">
+							<div class="calculate-grid-bottle__body">
+								<div class="calculate-grid-bottle__row">
+									<div class="calculate-grid-bottle__column">Koszt <br />1 napój</div>
+									<div class="calculate-grid-bottle__column">9.0 zł</div>
+								</div>
+								<br />
+								<div class="calculate-grid-bottle__row">
+									<div class="calculate-grid-bottle__column">Produkty</div>
+									<div class="calculate-grid-bottle__column">3.15 zł</div>
+								</div>
+								<div class="calculate-grid-bottle__row">
+									<div class="calculate-grid-bottle__column">Wynajem</div>
+									<div class="calculate-grid-bottle__column">1.13 zł</div>
+								</div>
+								<div class="calculate-grid-bottle__row">
+									<div class="calculate-grid-bottle__column">Personel</div>
+									<div class="calculate-grid-bottle__column">0.0 zł</div>
+								</div>
+
+								<div class="calculate-grid-bottle__row">
+									<div class="calculate-grid-bottle__column">Inne</div>
+									<div class="calculate-grid-bottle__column">0.17&nbsp;zł</div>
+								</div>
+
+								<br />
+								<div class="calculate-grid-bottle__row">
+									<div class="calculate-grid-bottle__column">Zysk netto</div>
+									<div class="calculate-grid-bottle__column">4.55&nbsp;zł</div>
+								</div>
+							</div>
+							<img class="calculate-grid-bottle__img" src="img/bottle.png" alt="" />
+						</div>
+					</div>
+					<div class="calculate__numbers-calculator numbers-calculator">
+						<div class="numbers-calculator__column">
+							<h3 class="numbers-calculator__title">Wybierz liczbę drinków dziennie</h3>
+							<div class="numbers-calculator__body">
+								<div class="numbers-calculator__slider" id="rangesl-day"></div>
+								<div class="numbers-calculator__bottom">
+									<div class="numbers-calculator__start">1</div>
+									<div class="numbers-calculator__finish">100</div>
+								</div>
+							</div>
+						</div>
+						<div class="numbers-calculator__column">
+							<h3 class="numbers-calculator__title">Wybierz liczbę kawiarni</h3>
+							<div class="numbers-calculator__body">
+								<div class="numbers-calculator__slider" id="rangesl-counts"></div>
+								<div class="numbers-calculator__bottom">
+									<div class="numbers-calculator__start">1</div>
+									<div class="numbers-calculator__finish">10</div>
+								</div>
+							</div>
+						</div>
+						<div class="numbers-calculator__column">
+							<h3 class="numbers-calculator__title">Wybierz liczbę miesięcy</h3>
+							<div class="numbers-calculator__body">
+								<div class="numbers-calculator__slider" id="rangesl-mounth"></div>
+								<div class="numbers-calculator__bottom">
+									<div class="numbers-calculator__start">1</div>
+									<div class="numbers-calculator__finish">12</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="calculate__out">Zysk netto: <span></span> zł</div>
+				</div>
+			</section>
+			<section class="cashout section">
+				<div class="container">
+					<h2 class="step-title"><span>Krok 2</span><span>Zdobądź gwarancje</span></h2>
+					<div class="cashout__body">
+						<div class="cashout__img">
+							<img src="img/dock.jpg" alt="" />
+							<img src="img/dock.jpg" alt="" />
+						</div>
+						<div class="cashout__text">
+							<h3 class="cashout__title">
+								Nie będzie możliwości zarabiania pieniędzy - zwrócimy pieniądze
+							</h3>
+							<p class="cashout__desc">Gwarancje rentowności są zapisane w umowie</p>
+							<a href="" class="btn">Zdobądź kontrakt</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="start section" id="start">
+				<div class="container">
+					<div class="start__body">
+						<div class="start__text">
+							<h2 class="start__title">Wszystko, czego potrzebujesz, aby zacząć</h2>
+							<div class="start__steps">
+								<ul class="start__list">
+									<li>Gwarancja rentowności</li>
+									<li>Łatwa instalacja</li>
+									<li>Pomoc w otwarciu firmy</li>
+									<li>Osobisty kurator</li>
+								</ul>
+								<div class="start__price">29 900 zł</div>
+								<a href="" class="start__btn btn">Zamów rozmowę</a>
+							</div>
+						</div>
+						<div class="start__img">
+							<img src="img/intro-img.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="location section">
+				<div class="container">
+					<h2 class="step-title"><span>Krok 3</span><span>Wybierz lokalizację</span></h2>
+					<div class="location__body">
+						<div class="location__tekst">
+							<h3 class="location__title">Poprawna lokalizacja – 80% powodzenia</h3>
+							<p class="location__desc">
+								Im większa liczba odbiorców docelowych, tym większy zysk
+								<br /><br />
+								Nasze doświadczenie i unikalny system geomarketingu pozwalają na dokonanie
+								jakościowego wyboru miejsca na umieszczenie kawiarni.
+							</p>
+						</div>
+						<div class="location__img">
+							<img src="img/map.png" alt="" />
+						</div>
+					</div>
+					<div class="location__coffe">
+						<img src="img/coffe.png" alt="" />
+					</div>
+				</div>
+			</section>
+			<section class="intro section">
+				<div class="container">
+					<h2 class="step-title">
+						<span>Krok 4</span><span>Zainstaluj i zarabiaj</span>
+					</h2>
+					<div class="intro__body">
+						<div class="intro__offer">
+							<h1 class="intro__title">
+								Kawiarnia od 4990 USD <br />z zyskiem od 400 do 1400 USD miesięcznie
+							</h1>
+							<a href="" class="btn">Zostaw prośbę</a>
+						</div>
+						<div class="intro__img">
+							<img src="img/intro-img.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="team section">
+				<div class="container">
+					<h2 class="team__title">Zespół</h2>
+					<div class="team__body">
+						<div class="team-block">
+							<div class="team-block__img">
+								<img src="img/man.png" alt="" />
+							</div>
+							<div class="team-block__bottom">
+								<div class="team-block__name">Андрій Вардзарук</div>
+								<div class="team-block__place">Засновник</div>
+							</div>
+						</div>
+						<div class="team-block">
+							<div class="team-block__img">
+								<img src="img/man.png" alt="" />
+							</div>
+							<div class="team-block__bottom">
+								<div class="team-block__name">Андрій Вардзарук</div>
+								<div class="team-block__place">Засновник</div>
+							</div>
+						</div>
+						<div class="team-block">
+							<div class="team-block__img">
+								<img src="img/man.png" alt="" />
+							</div>
+							<div class="team-block__bottom">
+								<div class="team-block__name">Андрій Вардзарук</div>
+								<div class="team-block__place">Засновник</div>
+							</div>
+						</div>
+						<div class="team-block">
+							<div class="team-block__img">
+								<img src="img/man.png" alt="" />
+							</div>
+							<div class="team-block__bottom">
+								<div class="team-block__name">Андрій Вардзарук</div>
+								<div class="team-block__place">Засновник</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="callback section" id="callback">
+				<div class="container">
+					<div class="callback__body">
+						<div class="callback__img">
+							<img src="img/form.png" alt="" />
+						</div>
+						<div class="callback__text">
+							<h2 class="callback__title">Zostaw prośbę</h2>
+							<p class="callback__desc">
+								Obiecujemy nie spamować ani nie przekazywać kontaktów osobom trzecim.
+								Tylko zaprosimy Cię na degustację kawy, wyślemy model finansowy i pokażemy
+								Ci go prawdziwe statystyki
+							</p>
+							<form class="callback__form" method="POST" action="telegram.php">
+								<input
+									class="callback__input"
+									name="name"
+									type="text"
+									placeholder="Imię"
+								/>
+								<input
+									class="callback__input"
+									name="tel"
+									type="number"
+									placeholder="Telephone"
+								/>
+								<button class="btn">Надіслати</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__top">
+					<a href="" class="logo">
+						<img src="img/logo.svg" alt="" />
+					</a>
+				</div>
+				<div class="footer__body">
+					<div class="footer__column">
+						<p class="footer__copy">
+							KAPRAN GROUP SPOLKA Z OGRANI <br />
+							ul. KSAWEROW 3 02-656 WARSZAWA <br />
+							NIP: 5213954039
+						</p>
+					</div>
+					<div class="footer__column">
+						<div class="footer__label">Sieci społecznościowe marki:</div>
+						<div class="footer__socials socials-footer">
+							<a href="" class="socials-footer__icon">
+								<svg
+									width="20"
+									height="20"
+									viewBox="0 0 20 20"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g clip-path="url(#clip0_32_159)">
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20ZM13.5275 6.42888C13.601 6.47862 13.6768 6.52451 13.7547 6.56637C14.2614 6.82911 14.7563 6.9091 15 6.88161V8.9275C15 8.9275 14.3044 8.89751 13.7881 8.75501C13.0685 8.55477 12.6072 8.24729 12.6072 8.24729C12.6072 8.24729 12.287 8.02705 12.263 8.01205V12.2398C12.263 12.4748 12.2032 13.0628 12.0239 13.553C11.8667 13.9722 11.642 14.3605 11.3595 14.7012C11.3595 14.7012 10.9172 15.2714 10.1404 15.6542C9.49287 15.9733 8.91684 15.9908 8.68806 15.9978C8.66937 15.9983 8.653 15.9988 8.63909 15.9994C8.63909 15.9994 7.57549 16.0439 6.61621 15.3659L6.61141 15.3609V15.3659C6.28708 15.1306 5.99787 14.8468 5.75308 14.5237C5.4495 14.121 5.26322 13.6433 5.21515 13.5033V13.4983C5.13872 13.2605 4.97839 12.6853 5.00243 12.1301C5.04065 11.1519 5.35624 10.5492 5.43989 10.3992C5.65969 9.98788 5.94682 9.61962 6.28836 9.31098C6.67814 8.97115 7.13141 8.71901 7.61957 8.57048C8.10773 8.42195 8.62019 8.38026 9.12462 8.44803L9.12222 10.5464C8.95605 10.4901 8.78237 10.4615 8.6076 10.4617C7.68438 10.4617 6.93613 11.2446 6.93613 12.2116C6.93613 13.1785 7.68438 13.9615 8.6076 13.9615C8.89505 13.9619 9.17763 13.8843 9.42747 13.7365C9.6672 13.5949 9.86978 13.3941 10.0174 13.1519C10.165 12.9097 10.2531 12.6335 10.274 12.3476V12.3431C10.2752 12.3371 10.2752 12.3311 10.2752 12.3253V12.3253C10.2755 12.3208 10.2757 12.3164 10.276 12.3122C10.2766 12.3034 10.2772 12.2951 10.2772 12.2863C10.2815 12.1819 10.2815 12.0761 10.2815 11.9692V11.9691V4H12.263C12.2599 4 12.2392 4.19749 12.2892 4.50273H12.2868C12.3467 4.87046 12.5091 5.39568 12.9442 5.9134C13.1181 6.10893 13.3139 6.282 13.5275 6.42888Z"
+											fill="white"
+										/>
+									</g>
+									<defs>
+										<clipPath id="clip0_32_159">
+											<rect width="20" height="20" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</a>
+							<a href="" class="socials-footer__icon">
+								<svg
+									width="20"
+									height="20"
+									viewBox="0 0 20 20"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g clip-path="url(#clip0_32_159)">
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20ZM13.5275 6.42888C13.601 6.47862 13.6768 6.52451 13.7547 6.56637C14.2614 6.82911 14.7563 6.9091 15 6.88161V8.9275C15 8.9275 14.3044 8.89751 13.7881 8.75501C13.0685 8.55477 12.6072 8.24729 12.6072 8.24729C12.6072 8.24729 12.287 8.02705 12.263 8.01205V12.2398C12.263 12.4748 12.2032 13.0628 12.0239 13.553C11.8667 13.9722 11.642 14.3605 11.3595 14.7012C11.3595 14.7012 10.9172 15.2714 10.1404 15.6542C9.49287 15.9733 8.91684 15.9908 8.68806 15.9978C8.66937 15.9983 8.653 15.9988 8.63909 15.9994C8.63909 15.9994 7.57549 16.0439 6.61621 15.3659L6.61141 15.3609V15.3659C6.28708 15.1306 5.99787 14.8468 5.75308 14.5237C5.4495 14.121 5.26322 13.6433 5.21515 13.5033V13.4983C5.13872 13.2605 4.97839 12.6853 5.00243 12.1301C5.04065 11.1519 5.35624 10.5492 5.43989 10.3992C5.65969 9.98788 5.94682 9.61962 6.28836 9.31098C6.67814 8.97115 7.13141 8.71901 7.61957 8.57048C8.10773 8.42195 8.62019 8.38026 9.12462 8.44803L9.12222 10.5464C8.95605 10.4901 8.78237 10.4615 8.6076 10.4617C7.68438 10.4617 6.93613 11.2446 6.93613 12.2116C6.93613 13.1785 7.68438 13.9615 8.6076 13.9615C8.89505 13.9619 9.17763 13.8843 9.42747 13.7365C9.6672 13.5949 9.86978 13.3941 10.0174 13.1519C10.165 12.9097 10.2531 12.6335 10.274 12.3476V12.3431C10.2752 12.3371 10.2752 12.3311 10.2752 12.3253V12.3253C10.2755 12.3208 10.2757 12.3164 10.276 12.3122C10.2766 12.3034 10.2772 12.2951 10.2772 12.2863C10.2815 12.1819 10.2815 12.0761 10.2815 11.9692V11.9691V4H12.263C12.2599 4 12.2392 4.19749 12.2892 4.50273H12.2868C12.3467 4.87046 12.5091 5.39568 12.9442 5.9134C13.1181 6.10893 13.3139 6.282 13.5275 6.42888Z"
+											fill="white"
+										/>
+									</g>
+									<defs>
+										<clipPath id="clip0_32_159">
+											<rect width="20" height="20" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</a>
+							<a href="" class="socials-footer__icon">
+								<svg
+									width="20"
+									height="20"
+									viewBox="0 0 20 20"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<g clip-path="url(#clip0_32_159)">
+										<path
+											fill-rule="evenodd"
+											clip-rule="evenodd"
+											d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20ZM13.5275 6.42888C13.601 6.47862 13.6768 6.52451 13.7547 6.56637C14.2614 6.82911 14.7563 6.9091 15 6.88161V8.9275C15 8.9275 14.3044 8.89751 13.7881 8.75501C13.0685 8.55477 12.6072 8.24729 12.6072 8.24729C12.6072 8.24729 12.287 8.02705 12.263 8.01205V12.2398C12.263 12.4748 12.2032 13.0628 12.0239 13.553C11.8667 13.9722 11.642 14.3605 11.3595 14.7012C11.3595 14.7012 10.9172 15.2714 10.1404 15.6542C9.49287 15.9733 8.91684 15.9908 8.68806 15.9978C8.66937 15.9983 8.653 15.9988 8.63909 15.9994C8.63909 15.9994 7.57549 16.0439 6.61621 15.3659L6.61141 15.3609V15.3659C6.28708 15.1306 5.99787 14.8468 5.75308 14.5237C5.4495 14.121 5.26322 13.6433 5.21515 13.5033V13.4983C5.13872 13.2605 4.97839 12.6853 5.00243 12.1301C5.04065 11.1519 5.35624 10.5492 5.43989 10.3992C5.65969 9.98788 5.94682 9.61962 6.28836 9.31098C6.67814 8.97115 7.13141 8.71901 7.61957 8.57048C8.10773 8.42195 8.62019 8.38026 9.12462 8.44803L9.12222 10.5464C8.95605 10.4901 8.78237 10.4615 8.6076 10.4617C7.68438 10.4617 6.93613 11.2446 6.93613 12.2116C6.93613 13.1785 7.68438 13.9615 8.6076 13.9615C8.89505 13.9619 9.17763 13.8843 9.42747 13.7365C9.6672 13.5949 9.86978 13.3941 10.0174 13.1519C10.165 12.9097 10.2531 12.6335 10.274 12.3476V12.3431C10.2752 12.3371 10.2752 12.3311 10.2752 12.3253V12.3253C10.2755 12.3208 10.2757 12.3164 10.276 12.3122C10.2766 12.3034 10.2772 12.2951 10.2772 12.2863C10.2815 12.1819 10.2815 12.0761 10.2815 11.9692V11.9691V4H12.263C12.2599 4 12.2392 4.19749 12.2892 4.50273H12.2868C12.3467 4.87046 12.5091 5.39568 12.9442 5.9134C13.1181 6.10893 13.3139 6.282 13.5275 6.42888Z"
+											fill="white"
+										/>
+									</g>
+									<defs>
+										<clipPath id="clip0_32_159">
+											<rect width="20" height="20" fill="white" />
+										</clipPath>
+									</defs>
+								</svg>
+							</a>
+							<a href="tel:432" class="footer__tel">0 800 335 868</a>
+						</div>
+					</div>
+					<div class="footer__column">
+						<a href="" class="footer__btn btn">chat</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="./js/nouislider.min.js"></script>
+		<script src="./js/index.js"></script>
+	</body>
+</html>
